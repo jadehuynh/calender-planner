@@ -31,3 +31,12 @@ description.each(function() {
     }
 })
 
+$('saveItem'); {
+    localStorage.setItem('text', '.description')
+}
+
+$('saveButton').click(function (e) {
+    e.preventDefault();
+
+    saveItem();
+});
