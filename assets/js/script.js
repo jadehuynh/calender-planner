@@ -31,12 +31,15 @@ description.each(function() {
     }
 })
 
-var saveItem = $('saveButton').click(function (e) {
-    localStorage.setItem(saveItem)
+
+
+$('saveButton').click(function (e) {
+    var saveItem =localStorage.setItem("W","W");
+    localStorage.getItem(saveItem);
     e.preventDefault();
 
-    
-    console.log(saveItem)
+    saveItem();
+    console.log.text(saveItem)
 });
 
-saveItem();
+
