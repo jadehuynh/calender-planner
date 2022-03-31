@@ -11,7 +11,7 @@ var futureDisplay = $(".future");
 var saveButton = $(".saveBtn")
 
 var currentDate = moment().format("MMMM Do YYYY");
-console.log(currentDate)
+//console.log(currentDate)
 
 var currentDateDisplay = $("#currentDay")
 currentDateDisplay.text(currentDate);
@@ -32,9 +32,7 @@ description.each(function() {
 })
 
 
-
-
-// var saveBtn9 = $("#save9")
+//var saveBtn9 = $("#save9")
 // var saveBtn10 = $("#save10")
 // var saveBtn11 = $("#save11")
 // var saveBtn12 = $("#save12")
@@ -44,20 +42,40 @@ description.each(function() {
 // var saveBtn16 = $("#save16")
 // var saveBtn17= $("save17")
 
-var textElement = $(textArea).text("");
-var saveItem =localStorage.setItem('planEntry',textElement)
 
-saveButton= $('saveButton').on('click', function (e) {
-    e.preventDefault();
-    if (saveButton === saveItem) {
-        //
-    localStorage.setItem('enterPlans', JSON.stringify(textElement));
-    }  
+
+// $('saveButton').click(function () {
+//     textElement.push(saveItem)  
+//     localStorage.setItem('planEntry',textElement)  
+// });
+
+// saveButton= $('saveButton').on('click', function (e) {
+//     e.preventDefault();
+//     if (saveButton === saveItem) {
+//         //
+//     localStorage.setItem('enterPlans', JSON.stringify(textElement));
+//     }  
         
-});
+// });
+
+var textElement = $("#textArea").text(description);
+var saveItem =localStorage.setItem('planEntry',JSON.stringify(textElement))
+
+function getInfo(text) {
+    // var userName = "octocat";
+    var textSect = description.text.display = "block";
+    console.log(textSect);
+    saveButton();
+}
+
 
 console.log(textElement);
 
-
-
-
+var inputGroup = $('.input-group')
+ saveButton.on("click", function (e) {
+    e.preventDefault();
+    var inputGroup = textElement.val();
+    // userList.push(userName);
+    localStorage.setItem("entry", JSON.stringify(saveItem));
+    // getUser(userName);
+ });
