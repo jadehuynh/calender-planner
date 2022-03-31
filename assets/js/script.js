@@ -57,25 +57,33 @@ description.each(function() {
 //     }  
         
 // });
+$('.saveBtn').on('click', function () {
+    var textElement = $(this).siblings('.description').val();
+    var blockTime = $(this).parent().parent().attr("id");
+    console.log(blockTime);
+    console.log(textElement);
 
-var textElement = $("#textArea").text(description);
-var saveItem =localStorage.setItem('planEntry',JSON.stringify(textElement))
+    localStorage.setItem(blockTime, textElement);
+})
+// var textElement = (description);
+// var saveItem =localStorage.setItem('planEntry',JSON.stringify(textElement))
 
-function getInfo(text) {
-    // var userName = "octocat";
-    var textSect = description.text.display = "block";
-    console.log(textSect);
-    saveButton();
-}
+// function getInfo(text) {
+//     // var userName = "octocat";
+//     var textSect = description.text.display = "block";
+//     console.log(textSect);
+//     saveButton();
+// }
 
+$('#hour-9 .description').val(localStorage.getItem('hour-9'));
+// console.log(textElement);
 
-console.log(textElement);
+// var inputGroup = $('.input-group')
 
-var inputGroup = $('.input-group')
- saveButton.on("click", function (e) {
-    e.preventDefault();
-    var inputGroup = textElement.val();
-    // userList.push(userName);
-    localStorage.setItem("entry", JSON.stringify(saveItem));
-    // getUser(userName);
- });
+//  saveButton.on("click", function () {
+//     .preventDefault();
+//     var inputGroup = textElement.val();
+//     // userList.push(userName);
+//     localStorage.setItem("entry", JSON.stringify(saveItem));
+//     // getUser(userName);
+//  });
