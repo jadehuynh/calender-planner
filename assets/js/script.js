@@ -31,32 +31,6 @@ description.each(function() {
     }
 })
 
-
-//var saveBtn9 = $("#save9")
-// var saveBtn10 = $("#save10")
-// var saveBtn11 = $("#save11")
-// var saveBtn12 = $("#save12")
-// var saveBtn13 = $("#save13")
-// var saveBtn14 = $("#save14")
-// var saveBtn15 = $("#save15")
-// var saveBtn16 = $("#save16")
-// var saveBtn17= $("save17")
-
-
-
-// $('saveButton').click(function () {
-//     textElement.push(saveItem)  
-//     localStorage.setItem('planEntry',textElement)  
-// });
-
-// saveButton= $('saveButton').on('click', function (e) {
-//     e.preventDefault();
-//     if (saveButton === saveItem) {
-//         //
-//     localStorage.setItem('enterPlans', JSON.stringify(textElement));
-//     }  
-        
-// });
 $('.saveBtn').on('click', function () {
     var textElement = $(this).siblings('.description').val();
     var blockTime = $(this).parent().parent().attr("id");
@@ -65,25 +39,12 @@ $('.saveBtn').on('click', function () {
 
     localStorage.setItem(blockTime, textElement);
 })
-// var textElement = (description);
-// var saveItem =localStorage.setItem('planEntry',JSON.stringify(textElement))
 
-// function getInfo(text) {
-//     // var userName = "octocat";
-//     var textSect = description.text.display = "block";
-//     console.log(textSect);
-//     saveButton();
-// }
-
-$('#hour-9 .description').val(localStorage.getItem('hour-9'));
-// console.log(textElement);
-
-// var inputGroup = $('.input-group')
-
-//  saveButton.on("click", function () {
-//     .preventDefault();
-//     var inputGroup = textElement.val();
-//     // userList.push(userName);
-//     localStorage.setItem("entry", JSON.stringify(saveItem));
-//     // getUser(userName);
-//  });
+$('9 .description').val(localStorage.getItem('9'));
+$('9 .description').val(localStorage.getItem('9'));
+$('9 .description').val(localStorage.getItem('9'));
+$('9 .description').val(localStorage.getItem('9'));
+$('9 .description').val(localStorage.getItem('9'));
+$('9 .description').val(localStorage.getItem('9'));
+$('9 .description').val(localStorage.getItem('9'));
+$('9 .description').val(localStorage.getItem('9'));
