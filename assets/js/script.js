@@ -10,7 +10,7 @@ var presentDisplay = $(".present");
 var futureDisplay = $(".future");
 var saveButton = $(".saveBtn")
 
-var currentDate = moment().format("MMMM Do YYYY");
+var currentDate = moment().format("dddd MMMM Do YYYY");
 //console.log(currentDate)
 
 var currentDateDisplay = $("#currentDay")
