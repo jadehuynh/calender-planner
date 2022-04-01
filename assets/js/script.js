@@ -12,10 +12,12 @@ var saveButton = $(".saveBtn")
 
 var currentDate = moment().format("dddd MMMM Do YYYY");
 //console.log(currentDate)
-
+//variable display cirrent date and time
 var currentDateDisplay = $("#currentDay")
 currentDateDisplay.text(currentDate);
 
+
+//function to organize how the schedule is coded
 description.each(function() {
     var rightNow = $(this).parent().parent().attr("id")
     var currentHour = moment().hour()
@@ -30,7 +32,7 @@ description.each(function() {
         $(this).addClass("past")
     }
 })
-
+//functiom for save button to store in local storage
 $('.saveBtn').on('click', function () {
     var textElement = $(this).siblings('.description').val();
     var blockTime = $(this).parent().parent().attr("id");
