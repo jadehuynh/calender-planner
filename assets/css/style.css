@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   line-height: 1;
 }
-
+/*textarea is where the input plans of the users will live and be save*/
 textarea {
   background: transparent;
   border: none;
@@ -12,7 +12,7 @@ textarea {
   border-left: 1px solid black;
   padding: 10px;
 }
-
+/*styling the header and jumbotrom*/
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -20,7 +20,7 @@ textarea {
   border-radius: 0;
   border-bottom: 10px solid black;
 }
-
+/*the text area to save entries*/
 .description {
   white-space: pre-wrap;
 }
