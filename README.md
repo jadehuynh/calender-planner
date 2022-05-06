@@ -11,6 +11,7 @@
 
 #### * Once all your plans have been save for the current day, they will stay saved even if you refresh your browser! If you have trouble keeping track of time, no problem. The time blocks are color coded to indicate what blocks are past, present, and future. Quite easy to see what you have already done and what you are coming up on as a user of this planner.
 
+
 ![](https://img.shields.io/badge/License-MIT-yellowgreen)
 
 [Click this link to access the virtual calender](https://jadehuynh.github.io/calender-planner/)
