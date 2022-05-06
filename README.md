@@ -1,99 +1,30 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Calender-Planner
+----
+![](https://camo.githubusercontent.com/c652dbcdb4bc224b3e4d7bd673bdbf698c6681a7503057b555e88f47eb523af5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f77677265656e)
 
-## Your Task
-
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
-
-## User Story
-
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+## Hello and welcome to the virtual calender made by Jade!
 
 
-## Grading Requirements
+#### * To navigate through the planner is easy to use! First, the user should take a look at the header to confirm that today's date is the correct day to save some plans in time blocks!
 
-> **Note**: If a homework assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+#### * Using this virtual planner is as straight forward as it looks. After comfirming at the top you are making and saving plans as well as events for the correct date, you simply will enter your information in the text box. Once you're entry has been entered, click the floppy disc icon to the right to save your entry or entries!
 
-This homework is graded based on the following criteria: 
+#### * Once all your plans have been save for the current day, they will stay saved even if you refresh your browser! If you have trouble keeping track of time, no problem. The time blocks are color coded to indicate what blocks are past, present, and future. Quite easy to see what you have already done and what you are coming up on as a user of this planner.
 
-### Technical Acceptance Criteria: 40%
+![](https://img.shields.io/badge/License-MIT-yellowgreen)
 
-* Satisfies all of the above acceptance criteria plus the following:
+[Click this link to access the virtual calender](https://jadehuynh.github.io/calender-planner/)
 
-  * Uses a date utility library to work with date and time
+## 
 
-### Deployment: 32%
+![Preview of the virtual planner](./assets/images/calender.png)
 
-* Application deployed at live URL
+![](./assets/images/past.png) 
 
-* Application loads with no errors
+![](./assets/images/loclstrg.png) 
 
-* Application GitHub URL submitted
 
-* GitHub repo contains application code
 
-### Application Quality: 15%
 
-* Application user experience is intuitive and easy to navigate
 
-* Application user interface style is clean and polished
 
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
